@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: rgb(187, 220, 220);
+}
+p {
+    border: 3px solid rgb(149, 184, 196);
+    background-color: rgb(223, 205, 183);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.top {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.top {
+    display: flex;
+    justify-content: start;
+}
+.top p{
+    width: 350px;
+}
+.top img{
+    width: 40%;
+    height: 400px;
+    float: right;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.bottom {
+    display: flex;
+    justify-content: end;
+}
+.bottom p{
+    width: 350px;
+}
+.bottom img{
+    width: 40%;
+    height: 400px;
+    align-items: start;
+    float: left;
+}
