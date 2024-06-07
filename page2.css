@@ -55,3 +55,15 @@ body{
 .bottom p{
     float: right;
 }
+/* google font  */
+.top .content p{
+    font-family: "Khand", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.bottom .content p{
+    font-family: "Khand", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
