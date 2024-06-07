@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(187, 220, 220);
+}
+.top .content p {
+    border: 3px solid rgb(149, 184, 196);
+    background-color: rgb(223, 205, 183);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.top img {
+    width: 450px;
+    height: 450px;
+    float: right;
+}
+.top .content p {
+    width: 600px;
+    height: 400;
+    font-size: 20;
+    display: flex;
+    grid-template-columns: repeat(2,1fr)
+}
+.bottom .content p {
+    border: 3px solid rgb(149, 184, 196);
+    background-color: rgb(223, 205, 183);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.bottom img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.bottom .content p {
+    width: 600px;
+    height: 400;
+    font-size: 20;
+    display: flex;
+    grid-template-columns: repeat(2,1fr)
+
+}
+.bottom p{
+    float: right;
+}
