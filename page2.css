@@ -1,8 +1,10 @@
+/* changing background colour */
 body{
     margin: 0;
     padding: 0;
     background-color: rgb(187, 220, 220);
 }
+/* adding style to 1st paragrap */
 .top .content p {
     border: 3px solid rgb(149, 184, 196);
     background-color: rgb(223, 205, 183);
@@ -11,11 +13,13 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
+/* working on 1st paragraph image */
 .top img {
     width: 450px;
     height: 450px;
     float: right;
 }
+/* working on 1st paragraph */
 .top .content p {
     width: 600px;
     height: 400;
@@ -23,6 +27,7 @@ body{
     display: flex;
     grid-template-columns: repeat(2,1fr)
 }
+/* adiing style at 2nd paragraph */
 .bottom .content p {
     border: 3px solid rgb(149, 184, 196);
     background-color: rgb(223, 205, 183);
@@ -31,11 +36,13 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
+/* working on 2nd image */
 .bottom img {
     width: 400px;
     height: 400px;
     float: left;
 }
+/* working on 2nd paragraph */
 .bottom .content p {
     width: 600px;
     height: 400;
@@ -44,6 +51,7 @@ body{
     grid-template-columns: repeat(2,1fr)
 
 }
+/* shifting 2nd paragraph to right side */
 .bottom p{
     float: right;
 }
